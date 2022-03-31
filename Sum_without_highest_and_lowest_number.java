@@ -30,3 +30,23 @@ for (int i = 0; i < arr.length; i++) {
 //Example
 //{ 6, 2, 1, 8, 10 } => 16
 //{ 1, 1, 11, 2, 3 } => 6
+//public class Kata {
+//  public static int sum(int[] arr) {
+//     if (arr == null || arr.length == 0 || arr.length == 1) return 0;
+//        int max = Integer.MAX_VALUE;
+//        int min = Integer.MIN_VALUE;
+//        int sum = 0;
+//for (int i = 0; i < arr.length; i++){
+//if (arr[i] > min) {
+//    min = arr[i];
+//}
+//if (arr[i] < max) {
+//    max = arr [i];
+//}
+//}
+//for (int j = 0; j < arr.length; j++) {
+//    sum += arr[j];
+//}
+//       return sum - min - max;
+//
+//  }
